@@ -1,0 +1,297 @@
+.app{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+/* ---- Login navbarCss ---- */
+
+.login-nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    
+}
+
+.linkedin-icon{
+    color: rgb(35, 107, 216);
+}
+
+.login-nav__left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.login-nav__left>p{
+    font-size: 27px;
+    margin-right: 3px;
+    color: rgb(50, 95, 192);
+}
+
+.login-nav__right{
+    display: flex;
+}
+
+.login-nav__icons{
+    display: flex;
+    gap: 2rem;
+}
+
+.login-nav__icons::after{
+    content: '';
+    height: 100%;
+    width: 1px;
+    background-color: gray;
+    margin-right: 2rem;
+}
+
+.nav-icon{
+    text-align: center;
+    cursor: pointer;
+    color: rgb(100, 100, 100);
+}
+
+.nav-icon:hover{
+    color: black;
+}
+
+.login-nav__buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* giving font faily to individual buttons  */
+
+.login-nav__buttons .join{
+    background: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.login-nav__buttons .signin{
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: 2px solid blue;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+} 
+
+/* ---- Loginin form css ---- */
+
+.login-form__container{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+}
+
+.login-form__left{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.login-form>h1{
+    font-weight: 300;
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.login-form>input{
+    width: 80%;
+    height: 42px;
+    margin-bottom: 10px;
+}
+.login-form>input::placeholder{
+    font-size: 16px;
+}
+
+.login-form>p{
+    color: black;
+    margin: 10px 0px;
+}
+
+.login-form>button{
+    width: 80%;
+    padding: 15px 0px;
+    background-color: rgb(44, 125, 192);
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+    border: none;
+    border-radius: 20px;
+}
+
+.login-form__right{
+    width: 45%;
+   height: 100%;
+   background-image: url('../src/assets/img/login-img.svg');
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+/* ---- Register form --- */
+
+.register-form__container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background-color: rgb(228, 228, 228);
+}
+
+.register-form__container>h1{
+    margin-top: 100px;
+    display: block;
+    text-align: center;
+}
+
+.register-form{
+    width: 450px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 24px;
+}
+
+label{
+    margin-top: 1rem;
+}
+
+.register-form>input{
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.32rem;
+  border-radius: 0.5rem;    
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.register-form>p{
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 20px 0px;
+}
+
+.register-form>button{
+    width: 100%;
+    padding: 15px 0px;
+    background-color: rgb(37, 117, 192);
+    border: none;
+    font-size: 21px;
+    color: white;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+/* ---- PostCard css -----  */
+
+.postcard{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.postcard-container{
+    padding: 15px;
+}
+
+.card-img{
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
+}
+
+.postcard-top{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.postcard-top>form{
+    width: 100%;
+}
+
+.postcard-top>form>input{
+    font-family: 'Nunito', sans-serif;
+    font-size: 26px;
+    padding: 0.32rem;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.postcard-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.button-photo{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.button-photo>button{
+    padding: 5px;
+    background: none;
+    border: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+}
+
+/* --- HomePageNavbar --- */
+
+.homepage-navbar__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.home-linkedin__icon{
+    font-size: 36px;
+}
+
+.home-icon{
+    font-size: 24px;
+    
+}
+
+.homepage-left{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.homepage-left>input{
+    font-family: 'Nunito', sans-serif;
+    font-size: 21px;
+    padding: 0.32rem;
+    border-radius: 12px;
+}
+
+.homepage-right{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.homepage-icon{
+    text-align: center;
+}
+
+.homepage-icon>p{
+    font-size: 14px;
+}
