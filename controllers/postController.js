@@ -36,7 +36,7 @@ const addNewPost = async (req,res) => {
     if(!user){
         return res.json({ message: "your post has not been added"})
     } else{
-        return res.json({ message: "your post has been added"})
+        return res.json({ message: "your post is added"})
     }
     
 }
