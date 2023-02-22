@@ -48,7 +48,6 @@ const createNewUser = asyncHandler(async (req, res) => {
     }else{
         res.status(400).json({ message: 'Invalid user data received'})
     }
-    console.log("Noice! Noice!")
 
 })
 
